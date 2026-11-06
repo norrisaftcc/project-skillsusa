@@ -1,0 +1,35 @@
+<section id="traps" data-transition="fade" style="background:#0E1116;color:#B3BFCC;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-family:'JetBrains Mono', 'Courier New', monospace;font-size:24px;letter-spacing:2px;color:#79B8FF">WEEK 2 · TRAPS</p>
+<h2 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:64px;font-weight:700;line-height:1.1;color:#E9EEF3">Three traps catch Python programmers first</h2>
+</div>
+<div style="display:flex;gap:24px;align-items:stretch">
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#161C24;border:1px solid #2B3644;border-radius:16px;padding:32px">
+<h3 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:36px;font-weight:700;color:#E9EEF3">== converts types</h3>
+<div style="display:flex;flex-direction:column;background:#0A0D12;border-radius:12px;padding:20px 24px;font-family:'JetBrains Mono', 'Courier New', monospace">
+<p style="font-size:26px;line-height:1.5;white-space:nowrap;color:#B3BFCC"><span style="color:#9ED9A6">"1"</span> == 1</p>
+<p style="font-size:26px;line-height:1.5;white-space:nowrap;color:#8593A3">// true</p>
+</div>
+<p style="font-size:28px;line-height:1.4"><span style="color:#E9EEF3">Fix:</span> always use ===</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#161C24;border:1px solid #2B3644;border-radius:16px;padding:32px">
+<h3 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:36px;font-weight:700;color:#E9EEF3">Empty arrays are truthy</h3>
+<div style="display:flex;flex-direction:column;background:#0A0D12;border-radius:12px;padding:20px 24px;font-family:'JetBrains Mono', 'Courier New', monospace">
+<p style="font-size:26px;line-height:1.5;white-space:nowrap;color:#B3BFCC"><span style="color:#F2A65A">if</span> ([]) { <span style="color:#8593A3">/* runs */</span> }</p>
+<p style="font-size:26px;line-height:1.5;white-space:nowrap;color:#8593A3">// Python: if []: does not</p>
+</div>
+<p style="font-size:28px;line-height:1.4"><span style="color:#E9EEF3">Fix:</span> test items.length</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#161C24;border:1px solid #2B3644;border-radius:16px;padding:32px">
+<h3 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:36px;font-weight:700;color:#E9EEF3">sort() compares text</h3>
+<div style="display:flex;flex-direction:column;background:#0A0D12;border-radius:12px;padding:20px 24px;font-family:'JetBrains Mono', 'Courier New', monospace">
+<p style="font-size:26px;line-height:1.5;white-space:nowrap;color:#B3BFCC">[10, 9, 1].<span style="color:#79B8FF">sort</span>()</p>
+<p style="font-size:26px;line-height:1.5;white-space:nowrap;color:#8593A3">// [1, 10, 9]</p>
+</div>
+<p style="font-size:28px;line-height:1.4"><span style="color:#E9EEF3">Fix:</span> pass (a, b) =&gt; a - b</p>
+</div>
+</div>
+<p style="font-size:28px;line-height:1.4;border-left:4px solid #79B8FF;padding:8px 0px 8px 24px">Also on the list: <span style="color:#E9EEF3">undefined</span> instead of KeyError, no integer division, and xs[-1] is undefined.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-family:'JetBrains Mono', 'Courier New', monospace;font-size:24px;color:#8593A3">Phase 1 spike · JavaScript</p>
+<aside>Each trap gets a predict-then-run drill: students write their Python expectation first, then run the line in the console. Put these traps in every weekly quiz in Phase 1. They are the errors that cost time in a contest because they fail silently.</aside>
+</section>

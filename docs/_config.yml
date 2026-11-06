@@ -1,0 +1,27 @@
+title: FTCC SkillsUSA Prep
+description: Independent preparation site for FTCC SkillsUSA teams, 2026–27. Web Design and Development, and Computer Programming.
+url: https://norrisaftcc.github.io
+# The repo name. Change this if the repo is renamed.
+baseurl: /project-skillsusa
+lang: en
+
+# The date the team last checked the official sources for the whole site.
+# Each rule also carries its own check date.
+checked: 2026-11-06
+
+permalink: pretty
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+
+exclude:
+  - README.md
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

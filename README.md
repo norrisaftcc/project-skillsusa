@@ -9,7 +9,7 @@ The plan is to publish a GitHub Pages site from this repo when the source materi
 | Path | Contents | Rule |
 |---|---|---|
 | `source/<origin>-<date>/` | Material imported from other places (ChatGPT, Drive, earlier research). Each folder has a `MANIFEST.md` (where each file came from) and a `REVIEW.md` (what is wrong, unverified or missing). | Import verbatim. Do not edit imported files after the import commit. Put corrections in `REVIEW.md`. |
-| `docs/` (planned) | The Pages site. | Only reviewed content. No Technical Standards text. No instructor-only material. |
+| `docs/` | The Pages site (Jekyll, built by GitHub Pages). See [docs/README.md](docs/README.md) for how to preview and update it. | Only reviewed content. No Technical Standards text. No instructor-only material. |
 
 ## Imports
 

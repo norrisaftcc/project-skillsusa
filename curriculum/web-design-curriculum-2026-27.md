@@ -175,8 +175,8 @@ UX methods from the exam blueprint (personas, user stories, journey maps, task a
 
 The team rehearses full contest days under contest rules, with repair weeks in between. All work is L1 or L0.
 
-- Odd weeks (16, 18, 20): a full L0 contest day, about 8 a.m. to 3 p.m. Use a client the students have not met. Invite an outside judge for at least one day.
-- Even weeks (17, 19, 21): repair the three largest point losses from the last simulation; one short timed build.
+- Weeks 16, 18 and 20: a full L0 contest day, about 8 a.m. to 3 p.m. Use a client the students have not met. Invite an outside judge for at least one day.
+- Weeks 17, 19 and 21: repair the three largest point losses from the last simulation; one short timed build.
 - From week 18: one full 70-question, 60-minute practice exam each week.
 - By 1 March: every competitor is a paid member.
 - By about 2 April: confirm the team roster before the NC drop and substitution deadline.
@@ -210,7 +210,7 @@ We write our own quiz items from the CWDSA-apprentice topic lists and teach each
 | Web audio and video | 5% | Phase 3 | Streaming concepts, creating and optimizing media, podcasting |
 | Legal and business issues | 3% | Phase 3 | Contracts, copyright, fair use, trademarks, Creative Commons, licenses, attribution, ROI |
 
-**Certification checkpoints.** In week 11, students sit the [WPG Certified Web Designer Novice exam](https://webprofessionals.org/certification/certified-web-designer-novice-cwdsa-novice/). In week 17, they sit the [Apprentice exam](https://webprofessionals.org/certification/cwdsa/). Both use the contest exam format: 70 questions, 60 minutes, online. Track the score per domain, and spend Phase 4 repair time on the two weakest domains.
+**Certification checkpoints.** In week 11, students sit the [WPG Certified Web Designer Novice exam](https://webprofessionals.org/certification/certified-web-designer-novice-cwdsa-novice/). In week 17, they sit the [Apprentice exam](https://webprofessionals.org/certification/cwdsa/). WPG lists the same format for both: 70 questions, 60 minutes, online. Whether the contest exam uses this format is still open (see the verified baseline). Track the score per domain, and spend Phase 4 repair time on the two weakest domains.
 
 **Open:** Registration, cost and passing score for both exams, and whether Novice is easier than Apprentice. These are asked in the email to WPG. If the exams are not available in time, run our own 70-question exams in weeks 11 and 17 instead.
 
@@ -314,5 +314,5 @@ The plan rests on five assumptions about time and people. Change the week plan i
 - [ ] How many hours per week can students give? Ask the students.
 - [ ] Which browser-based editor will the team use for practice, and how close is it to the WPG contest environment? Ask the contest chair what the environment allows (for example, live editing by two people at once).
 - [ ] Is Web Design offered at the 19 February regional rally? Ask SkillsUSA NC.
-- [ ] WPG exam registration and cost, rubric access, and whether NC uses the WPG state contest package. Sent to WPG as one email.
+- [ ] WPG exam registration and cost, rubric access, and whether NC uses the WPG state contest package. Drafted as one email to WPG; not sent yet.
 - [ ] Who can act as an outside judge for one Phase 4 simulation? Ask local web agencies or the FTCC advisory board.

@@ -1,15 +1,15 @@
 # FTCC Web Design Training Curriculum 2026–27
 
-As of 30 October 2026. Live, editable version: [Claude Doc](https://claude.ai/artifact/FAHGyetSdpsWWhACq7Mhv4). The season map diagram lives in the Claude Doc; the same data is in `season-outline-2026-27.xlsx`.
+As of 30 October 2026. Live, editable version: [Claude Doc](https://claude.ai/artifact/FAHGyetSdpsWWhACq7Mhv4). The season map diagram lives in the Claude Doc; the same data is in `season-outline.xlsx`.
 
 ## Design basis
 
 This plan takes a two-person team from basic HTML and CSS plus Python to contest conditions by the NC state conference on 21 April 2027. Coach support falls in five steps, and AI support ends before students work under contest rules.
 
-**What the contest asks, as we understand it** (details and sources in [the verified baseline](../docs/02-verified-baseline.md)):
+**What the contest asks, as we understand it** (details and sources in [the verified baseline](verified-baseline.md)):
 
 - A one-hour written exam aligned to the WPG CWDSA-apprentice certification. HTML and CSS are 50% of it. JavaScript is not a named exam domain.
-- A one-day live client project for a team of two, about 8 a.m. to 3 p.m.: client interview, one hour of paper wireframes, coding in a WPG browser-based environment, a scope change after lunch, and interviews while coding continues.
+- A one-day live client project for a team of two, ending about 3 p.m.: client interview, one hour of paper wireframes, coding in a WPG browser-based environment, a scope change after lunch, and interviews while coding continues.
 - No templates, no front-end frameworks, no AI assistance. All code is written during the contest.
 - Public judging areas (2026): UX and UI layout and responsiveness; semantic and accessible code; teamwork and agency professionalism.
 
@@ -175,7 +175,7 @@ UX methods from the exam blueprint (personas, user stories, journey maps, task a
 
 The team rehearses full contest days under contest rules, with repair weeks in between. All work is L1 or L0.
 
-- Weeks 16, 18 and 20: a full L0 contest day, about 8 a.m. to 3 p.m. Use a client the students have not met. Invite an outside judge for at least one day.
+- Weeks 16, 18 and 20: a full L0 contest day of about seven hours (local practice length; the official start time is open) Use a client the students have not met. Invite an outside judge for at least one day.
 - Weeks 17, 19 and 21: repair the three largest point losses from the last simulation; one short timed build.
 - From week 18: one full 70-question, 60-minute practice exam each week.
 - By 1 March: every competitor is a paid member.

@@ -1,40 +1,26 @@
 # project-skillsusa
 
-Preparation materials for FTCC's postsecondary entries in the 2026–27 SkillsUSA season:
+FTCC SkillsUSA 2026–27 preparation material: Web Design and Development (NC: "Web Design"), and later Computer Programming.
 
-- **Computer Programming** (individual)
-- **Web Design and Development** (two-person team; NC calls it "Web Design")
+The plan is to publish a GitHub Pages site from this repo when the source material is reviewed.
 
-Target events: NC State Leadership and Skills Conference, 21–23 April 2027, Greensboro; NLSC, 21–25 June 2027, Atlanta.
+## Layout
 
-## Contents
+| Path | Contents | Rule |
+|---|---|---|
+| `source/<origin>-<date>/` | Material imported from other places (ChatGPT, Drive, earlier research). Each folder has a `MANIFEST.md` (where each file came from) and a `REVIEW.md` (what is wrong, unverified or missing). | Import verbatim. Do not edit imported files after the import commit. Put corrections in `REVIEW.md`. |
+| `docs/` (planned) | The Pages site. | Only reviewed content. No Technical Standards text. No instructor-only material. |
 
-| Path | What it is | Status |
-| --- | --- | --- |
-| [`docs/02-verified-baseline.md`](docs/02-verified-baseline.md) | Facts from official sources only, with every gap written as an Open question. **Start here.** | Working reference, 30 Oct 2026 |
-| [`docs/01-baseline-research-report.md`](docs/01-baseline-research-report.md) | First-pass research: the original ChatGPT corpus checked claim by claim | Superseded by 02; kept for the audit trail |
-| [`curriculum/web-design-curriculum-2026-27.md`](curriculum/web-design-curriculum-2026-27.md) | Web Design training plan: scaffolding ladder, six phases, exam strand, Python-to-JavaScript bridge, reference map | Draft v1 |
-| [`curriculum/season-outline-2026-27.xlsx`](curriculum/season-outline-2026-27.xlsx) | Season outline, running strands and gap tracker (editable Owner and Status columns) | Draft v1 |
-| [`slides/`](slides/) | Phase 1 overview decks (HTML/CSS and JavaScript), Claude Slides source | Draft for review |
-| [`correspondence/`](correspondence/) | Drafts of outgoing emails (WPG requirements and logistics) | Draft, not sent |
-| [`reviews/chatgpt-drive-doc-corrections.md`](reviews/chatgpt-drive-doc-corrections.md) | Copy of the correction sections added to the three ChatGPT working docs in Drive | Record |
+## Imports
 
-## Live versions
+| Folder | Origin | Status |
+|---|---|---|
+| [`source/chatgpt-2026-10-30/`](source/chatgpt-2026-10-30/) | ChatGPT training track, baseline, labs, three mocks, coach material | Imported and reviewed. See [REVIEW.md](source/chatgpt-2026-10-30/REVIEW.md). |
+| [`source/claude-2026-10-30/`](source/claude-2026-10-30/) | Claude verified baseline, research report, 23-week Web Design curriculum and workbook, Phase 1 overview decks, WPG email draft | Imported and reviewed. See [REVIEW.md](source/claude-2026-10-30/REVIEW.md). |
 
-Several files here are snapshots of live documents. Edit the live version, then refresh the snapshot.
+## Rules for content
 
-| Snapshot | Live version |
-| --- | --- |
-| `docs/02-verified-baseline.md` | [Claude Doc](https://claude.ai/artifact/NbhGoeMAjN5PPrZhsknyvf) |
-| `curriculum/web-design-curriculum-2026-27.md` | [Claude Doc](https://claude.ai/artifact/FAHGyetSdpsWWhACq7Mhv4) (includes the season map diagram) |
-| `slides/phase1-html-css/` | [Claude Slides](https://claude.ai/artifact/TM57L8fuZ8Q4n1FrdFPRD4) |
-| `slides/phase1-javascript/` | [Claude Slides](https://claude.ai/artifact/Rptyoiyp2TFoYaJbWdENof) |
-
-Related working folder (ChatGPT): [Google Drive](https://drive.google.com/drive/folders/1zdnJrkOC68DawCpyYmlP_hS-5riFbTJq).
-
-## Rules for this repo
-
-- **Do not commit the 2026–28 Technical Standards** or any other member-only SkillsUSA material. SkillsUSA says they "may not be posted or shared in any publicly accessible location." Link to the [official access page](https://www.skillsusa.org/competitions/skillsusa-championships/technical-standards/) instead.
-- **Write our own training materials.** WPG and SkillsUSA publications are requirements, not content. Do not copy text, questions or projects from vendor courses, prep guides or past contests.
-- **Label every claim.** Documented (official source, linked), Baseline (2024–26 standard), or Open (still to confirm, with who to ask).
-- **Work on a branch and open a pull request.** More than one agent works in this repo.
+- This repo is public. Instructor-only material (change cards, answer keys, reference solutions, anything a student must not see before a mock) stays in Google Drive. Do not commit it here.
+- SkillsUSA Technical Standards are for members only and may not be posted publicly. Link to Pathful; do not copy.
+- Every statement of a contest rule carries a status: **confirmed** (source URL and check date), **unverified**, or **local practice rule**.
+- All practice scenarios use fictional names and `.example` addresses.

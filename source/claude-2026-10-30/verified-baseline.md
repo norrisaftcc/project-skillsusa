@@ -116,7 +116,7 @@ Web Design and Development is a two-person team contest that Web Professionals G
 6. A change of scope from the client after lunch.
 7. Team interviews while coding continues. Questions in 2026 covered design decisions, wireframe process, and why the client should hire the team.
 
-The 2026 postsecondary contest day ran from 8 a.m. to 3 p.m. Secondary and postsecondary teams compete on different days.
+In 2026, the secondary contest day ran from 8 a.m. to 3 p.m. The postsecondary contest day ended at 3 p.m.; WPG gives no start time. Secondary and postsecondary teams compete on different days.
 
 **Open:** The time for each phase after the paper hour. No official source gives coding sprint lengths or a code freeze. Ask the contest chair or read the 2026–28 standard.
 
@@ -165,7 +165,7 @@ Both contests use Class E business casual attire, require a one-page resume, and
 | Rule | National (NLSC) | NC state |
 | --- | --- | --- |
 | Attire | Official white SkillsUSA polo; black dress slacks or black dress skirt (knee length minimum); black closed-toe dress shoes. Socks are not required; if worn, they must be black dress socks. Wear contest attire to orientation. | Same attire. The white polo need not carry the SkillsUSA logo. Cover any school or business logo. Attire is required at the contest and at the opening and awards ceremonies. |
-| Resume | One-page PDF uploaded by 3 June 2027, 5 p.m. ET. A missing upload costs 10 points; a paper copy brought later does not remove it. Web Design also needs a hard copy at orientation. | Hand a paper resume to the contest chair at the contest. Penalty points apply if it is missing. |
+| Resume | One-page PDF uploaded by 3 June 2027, 5 p.m. ET. A missing upload incurs a penalty; the 2027 page gives no point value. (The 10-point penalty on that page is for a missing Safety Training Verification Letter.) Web Design also needs a hard copy at orientation. | Hand a paper resume to the contest chair at the contest. Penalty points apply if it is missing. |
 | Professional Development Test (PDT) | Online, before NLSC. Due 17 June 2027, 5 p.m. ET. | Not given at state in 2026. Required only for national qualifiers. |
 | Devices | Phones, smartwatches and unapproved electronics are banned. Misuse can cost the score. | Phones and unapproved electronics are banned. Test any computer you bring for software access away from campus. |
 

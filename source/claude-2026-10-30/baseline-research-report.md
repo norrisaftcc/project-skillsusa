@@ -1,6 +1,6 @@
 # FTCC SkillsUSA Baseline 2026–2027: Computer Programming and Web Design & Development (Postsecondary)
 
-> **Status:** first-pass research report, 30 October 2026. It checks the original ChatGPT corpus claim by claim. [`02-verified-baseline.md`](02-verified-baseline.md) supersedes it as the working reference.
+> **Status:** first-pass research report, 30 October 2026. It checks the original ChatGPT corpus claim by claim. [`verified-baseline.md`](verified-baseline.md) supersedes it as the working reference.
 >
 > **Known correction:** the fees section below says NC state dues were not found and calls $14 a Tennessee figure. SkillsUSA NC's [join page](https://skillsusanc.org/join) lists $14 for students ($8 national + $6 state) and $26 for professionals ($20 + $6). The verified baseline has the correct figures.
 

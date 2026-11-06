@@ -28,10 +28,22 @@ These files use three labels. They map to the repo labels in README.md as follow
 ## Known errors
 
 1. `baseline-research-report.md` says NC state dues were not found. It calls the $14 figure a Tennessee number. This is wrong. The [SkillsUSA NC join page](https://skillsusanc.org/join) gives $14 for students ($8 national, $6 state) and $26 for professionals ($20 national, $6 state). The file has a note at the top. `verified-baseline.md` has the correct figures.
-2. The 10-point resume penalty. **Corrected 6 November 2026: this item was itself wrong.** It said the 10-point figure in `baseline-research-report.md` and `chatgpt-drive-doc-corrections.md` was an error, because the [competition updates page](https://www.skillsusa.org/competitions/skillsusa-championships/competition-updates/) gives 10 points only for a missing Safety Training Verification Letter. But the event standard sets its own penalty. The public copy of the [2023–24 WDD standard](https://resources.finalsite.net/images/v1700063899/gcitorg/xarycrundehj64ktd4ef/WebDesignandDevelopment2023-24.pdf) says: "Failure to submit a resume will result in a 10-point penalty." So the 10-point figure is correct for 2023–24. Check it in the 2026–28 standard. The resume row in `verified-baseline.md` ("the 2027 page gives no point value") is true for the updates page but misses the event standard. Fix that row in the live doc. The imported file stays as it is.
+2. The 10-point resume penalty. **Corrected 6 November 2026: this item was itself wrong.** It said the 10-point figure in `baseline-research-report.md` and `chatgpt-drive-doc-corrections.md` was an error, because the [competition updates page](https://www.skillsusa.org/competitions/skillsusa-championships/competition-updates/) gives 10 points only for a missing Safety Training Verification Letter. But the event standard sets its own penalty. The public copy of the [2023–24 WDD standard](https://resources.finalsite.net/images/v1700063899/gcitorg/xarycrundehj64ktd4ef/WebDesignandDevelopment2023-24.pdf) sets a 10-point penalty for a missing resume. So the 10-point figure is correct for 2023–24. Check it in the 2026–28 standard. The resume row in `verified-baseline.md` ("the 2027 page gives no point value") is true for the updates page but misses the event standard. Fix that row in the live doc. The imported file stays as it is.
 3. The 2026 postsecondary contest hours. `baseline-research-report.md` and `chatgpt-drive-doc-corrections.md` say the 2026 postsecondary day ran from 8 a.m. to 3 p.m. This is wrong. The [WPG 2026 recap](https://webprofessionalsglobal.org/2026-skillsusa-national-web-design-and-development-competition-recap/) (checked 6 November 2026) gives 8 a.m. to 3 p.m. for the secondary day. For the postsecondary day it gives only the 3 p.m. end.
 
 `verified-baseline.md` and `web-design-curriculum.md` are corrected for errors 2 and 3, here and in the live docs. The other two files keep the errors as a record.
+
+4. The source of the no-templates rule. `chatgpt-drive-doc-corrections.md` says the WPG 2026 recap bans templates. The recap does not mention templates. The ban comes from the 2023–24 Web Design standard. `verified-baseline.md` cites both sources for its rules list, so it is not affected.
+
+## Live and Drive docs updated, 6 November 2026
+
+The live docs and the Drive docs changed after this import. The imported files keep their text as a record.
+
+| Where | Change |
+|---|---|
+| Live `verified-baseline` Claude Doc, resume row | Now says: a missing upload incurs a penalty; the public event standards (2023–24 Web Design, 2024–26 Computer Programming) set it at 10 points; confirm in the 2026–28 standards; the 2027 competition updates page gives no figure for resumes. This replaces the over-correction that item 2 describes. |
+| Three Drive docs (charter, Web Development training track, Computer Programming training track), Claude correction section | Same resume wording as above. The Web Development doc also has the corrected 2026 contest hours (error 3) and the corrected no-templates source (error 4). The charter has the corrected no-templates source. |
+| Three Drive docs, end of the Claude correction section | New line: the reviewed public material is in this repository, folder `source/claude-2026-10-30`; instructor-only material stays in Drive. New line: the date and list of corrections. |
 
 ## Fixed before import (pull request #2 review)
 

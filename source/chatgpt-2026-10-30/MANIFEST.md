@@ -15,7 +15,9 @@ The text is verbatim. Only the formatting changed: Google Docs headings became M
 | `10-student-training/mock-b-cedar-lab-directory.md` | Web Development \| Mock B Cedar Lab Directory | 10 — Student Training | `1rnHLT-xNG89ZyzKlGtuPuVUg8L4lPgAY336qmxF-Ul4` | 2026-10-30 |
 | `10-student-training/mock-c-pinewood-navigator.md` | Web Development \| Mock C Pinewood Resource Navigator | 10 — Student Training | `15jqsgfSeOBWxMPa3TU-W61mSB7YU-pmu4_Pis7OnFL0` | 2026-10-30 |
 | `20-instructor-resources/12-week-preparation-plan.md` | Web Development \| 12-Week Competition Preparation Plan | 20 — Instructor Resources | `1OspqpluAqDquIgpEob8Mc1kV7fuCGq_gSYkYgUXYptM` | 2026-10-30 |
-| `20-instructor-resources/assessment-and-simulation-runbook.md` | Web Development \| Instructor Assessment & Simulation Runbook | 20 — Instructor Resources | `1_lGCXkpMh0PJRKOYSF_KvJ1HL3ypIssznkgpN6WtkgM` | 2026-10-30 |
+| *Not imported. Instructor-only, kept in Drive.* | Web Development \| Instructor Assessment & Simulation Runbook | 20 — Instructor Resources | `1_lGCXkpMh0PJRKOYSF_KvJ1HL3ypIssznkgpN6WtkgM` | 2026-10-30 |
+
+The runbook holds the client change cards for the three mocks. Students must not see them before a mock, and this repo is public. Decision of 6 November 2026: instructor-only material stays in Google Drive. A private repo may hold it later. REVIEW.md refers to the runbook, but does not quote the cards.
 
 ## Not in the Drive folder
 

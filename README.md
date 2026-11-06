@@ -19,6 +19,7 @@ The plan is to publish a GitHub Pages site from this repo when the source materi
 
 ## Rules for content
 
+- This repo is public. Instructor-only material (change cards, answer keys, reference solutions, anything a student must not see before a mock) stays in Google Drive. Do not commit it here.
 - SkillsUSA Technical Standards are for members only and may not be posted publicly. Link to Pathful; do not copy.
 - Every statement of a contest rule carries a status: **confirmed** (source URL and check date), **unverified**, or **local practice rule**.
 - All practice scenarios use fictional names and `.example` addresses.

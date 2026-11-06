@@ -71,6 +71,6 @@ Checked on 6 November 2026 against these pages:
 ## 5. Effect on the Pages site
 
 1. **Do not publish Technical Standards text.** SkillsUSA does not allow it in a public location. Link to Pathful instead.
-2. **Do not publish the change cards, the answer key or the reference sites.** The runbook marks the change cards "instructor only". The Field Manual says surprise changes must stay outside the student work area. A GitHub Pages site on a public repo is public, and so is the repo itself. Keep instructor-only material out of the published folder. If it must stay secret from students, keep it out of this public repo too: use a private repo or the Drive folder.
+2. **Do not publish the change cards, the answer key or the reference sites.** The runbook marks the change cards "instructor only". The Field Manual says surprise changes must stay outside the student work area. This repo is public. **Decision, 6 November 2026:** instructor-only material stays in Google Drive and is not committed to this repo. A private repo may hold it later. For this reason the runbook is not imported (see MANIFEST.md).
 3. **Publish the student material.** The field manual, the lab catalog, the baseline packet and the three mock briefs are original, fictional and safe to publish.
 4. **Label every rule.** Each rule statement on the site gets a status: confirmed (with source and check date), unverified, or local practice rule.

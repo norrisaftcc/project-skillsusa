@@ -87,7 +87,7 @@ Half of the exam is HTML and CSS. Both team members take the exam, so both must 
 From the 2023–24 standard (public copy). {% include status.html s="unverified" %} for 2027.
 
 - The committee supplies table space for two computers, two chairs and power.
-- The team brings computers that support 5 GHz Wi-Fi (Wi-Fi 6), two surge protectors, a sketch pad, and its own tools for wireframes and documentation.
+- The team brings two surge protectors, a sketch pad, its own tools for wireframes and documentation, and "computers with 5 gHz wifi and wifi 6 connection" (the standard's words). Check that each computer connects on the 5 GHz band.
 - Resume: see [Dates]({{ '/dates/' | relative_url }}) and the [checklist]({{ '/checklist/' | relative_url }}).
 - Attire: Class E business casual. See the [checklist]({{ '/checklist/#attire' | relative_url }}).
 

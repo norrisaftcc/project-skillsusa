@@ -32,7 +32,7 @@ All from the 2024–26 standard. {% include status.html s="unverified" %} for 20
 
 ## How projects are scored
 
-Six criteria. No weights are published.
+Six criteria from the [2024–26 standard](https://resources.finalsite.net/images/v1731606870/mntechnologycom/zuf7qkvhzy47udu1mk51/ComputerProgramming2024-26.pdf). No weights are published. {% include status.html s="unverified" %} for 2027.
 
 1. Completeness.
 2. Correctness of output.

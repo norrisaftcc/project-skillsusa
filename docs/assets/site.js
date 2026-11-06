@@ -144,11 +144,22 @@
     });
     update();
 
+    // The evidence notes are saved with the scores, so a restored card keeps its reasons.
+    var notes = root.querySelector("textarea");
+    if (notes) {
+      if (typeof state.notes === "string") notes.value = state.notes;
+      notes.addEventListener("input", function () {
+        state.notes = notes.value;
+        store.set(key, state);
+      });
+    }
+
     var reset = document.querySelector("[data-score-reset]");
     if (reset) reset.addEventListener("click", function () {
       state = {};
       store.set(key, state);
       inputs.forEach(function (i) { i.value = ""; });
+      if (notes) notes.value = "";
       update();
     });
 

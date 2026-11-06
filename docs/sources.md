@@ -15,7 +15,7 @@ We check these official pages for new information. The table shows the last chec
 | {{ w.name }} | [{{ w.page }}]({{ w.url }}) | {{ w.checked | date: "%-d %b %Y" }} | {{ w.status }} |
 {%- endfor %}
 
-When NC posts its 2027 Web Design document, we will update the [Web Design page]({{ '/web-design/' | relative_url }}) and mark each changed rule with its source and date.
+A GitHub Action checks the NC page every day. It opens an issue in the repo when the Web Design, Computer Programming, packet or spreadsheet line changes. When NC posts its 2027 Web Design document, we will update the [Web Design page]({{ '/web-design/' | relative_url }}) and mark each changed rule with its source and date.
 
 ## Labels
 

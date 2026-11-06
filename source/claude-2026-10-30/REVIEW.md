@@ -33,6 +33,18 @@ These files use three labels. They map to the repo labels in README.md as follow
 
 `verified-baseline.md` and `web-design-curriculum.md` are corrected for errors 2 and 3, here and in the live docs. The other two files keep the errors as a record.
 
+4. The source of the no-templates rule. `chatgpt-drive-doc-corrections.md` says the WPG 2026 recap bans templates. The recap does not mention templates. The ban comes from the 2023–24 Web Design standard ("No templates can be utilized"). `verified-baseline.md` cites both sources for its rules list, so it is not affected.
+
+## Live and Drive docs updated, 6 November 2026
+
+The live docs and the Drive docs changed after this import. The imported files keep their text as a record.
+
+| Where | Change |
+|---|---|
+| Live `verified-baseline` Claude Doc, resume row | Now says: a missing upload incurs a penalty; the public event standards (2023–24 Web Design, 2024–26 Computer Programming) set it at 10 points; confirm in the 2026–28 standards; the 2027 competition updates page gives no figure for resumes. This replaces the over-correction that item 2 describes. |
+| Three Drive docs (charter, Web Development training track, Computer Programming training track), Claude correction section | Same resume wording as above. The Web Development doc also has the corrected 2026 contest hours (error 3) and the corrected no-templates source (error 4). The charter has the corrected no-templates source. |
+| Three Drive docs, end of the Claude correction section | New line: the reviewed public material is in this repository, folder `source/claude-2026-10-30`; instructor-only material stays in Drive. New line: the date and list of corrections. |
+
 ## Fixed before import (pull request #2 review)
 
 The Copilot reviewer found six errors. All six were real, and all six were fixed in the files and in the live versions.

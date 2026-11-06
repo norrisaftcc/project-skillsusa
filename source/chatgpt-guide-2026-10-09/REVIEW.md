@@ -2,23 +2,34 @@
 
 Reviewed 6 November 2026 by Claude. Labels as in README.md.
 
+## 0. Correction, 6 November 2026: the "supplied" standard and rubric are probably invented
+
+The site says it was built from a five-page 2026–28 Technical Standard PDF and a two-page 2026–28 sample rubric, both "supplied by the instructor". The advisor does not recall supplying them, and no copy is in Google Drive (searched 6 November 2026). Treat both as **probably fabricated by ChatGPT**. This changes the rest of this review:
+
+- Nothing on the site is evidence of what the 2026–28 standard says. That includes its page references, the AI and framework statements in section 2, the device-letter requirement, and the rubric categories and weights.
+- Section 2 stays as a list of points to check, not as findings.
+- Section 3 still holds, for a different reason. The site presents possibly invented rules as official, with page numbers. Unpublish it.
+- The two imported files (`practice-lab.md`, `mock-brief-repair-cafe.md`) are original practice material and are not affected. The brief's last line names a "supplied August 29, 2026 sample rubric"; ignore that reference.
+
+To get the real standard: join SkillsUSA as a professional member, use the emailed access code to log in to [Pathful](https://app.pathful.com/login), and open Technical Standards under the SkillsUSA member resources. Help: SkillsUSA Customer Care, 844-875-4557, customercare@skillsusa.org. Sources: [SkillsUSA Technical Standards page](https://www.skillsusa.org/competitions/skillsusa-championships/technical-standards/), [SkillsUSA NC competition guidelines](https://www.skillsusanc.org/competition-guidelines), checked 6 November 2026.
+
 ## 1. Summary
 
-The site was built from the 2026–28 Technical Standards and the 2026–28 sample rubric. All other material in this repo uses the 2023–24 or 2024–26 standards or the WPG 2026 recap. That makes the site the only record in this repo of what the current standard says. It is also the reason most of the site cannot come into this public repo (see MANIFEST.md).
+The site claims it was built from the 2026–28 Technical Standards and the 2026–28 sample rubric. See section 0: those inputs are probably invented. All other material in this repo uses the 2023–24 or 2024–26 standards or the WPG 2026 recap.
 
-## 2. Action for the advisor: three points to check in the 2026–28 standard
+## 2. Points to check in the 2026–28 standard
 
-The site reports that the 2026–28 standard differs from 2026 national practice on three points:
+The site claims that the 2026–28 standard differs from 2026 national practice on three points. The claims are probably invented (section 0), but the points are worth checking in the real standard:
 
 1. **AI use.**
 2. **Named front-end frameworks.**
 3. **The technical knowledge test.**
 
-`source/claude-2026-10-30/verified-baseline.md` labels "No front-end frameworks" and "No AI generation assistance" as Documented. The sources for both are the WPG 2026 recap and older standards. It already lists the exam format as open. **Until the advisor checks pages 2 to 4 of the 2026–28 PDF, treat all three points as unverified.** Keep the no-AI, no-framework rule for practice; it is the safe choice whatever the standard says. Record the result here as a status and a page number. Do not quote the text.
+`source/claude-2026-10-30/verified-baseline.md` labels "No front-end frameworks" and "No AI generation assistance" as Documented. The sources for both are the WPG 2026 recap and older standards. It already lists the exam format as open. **Until the advisor checks the real 2026–28 standard in Pathful, treat all three points as unverified.** Keep the no-AI, no-framework rule for practice; it is the safe choice whatever the standard says. Record the result here as a status and a page number. Do not quote the text.
 
-## 3. Live site exposes member-only content
+## 3. Live site presents unverified rules as official
 
-The live site is public. It paraphrases the 2026–28 standard with page numbers, and it shows the sample rubric's category weights. SkillsUSA says the standards "may not be posted or shared in any publicly accessible location". **Recommendation:** unpublish the site, or remove its requirements, sources and scoring sections.
+The live site is public. It presents rules and rubric weights as if they came from the 2026–28 standard, with page numbers. They are probably invented (section 0). If any are real, SkillsUSA says the standards "may not be posted or shared in any publicly accessible location". Either way, **unpublish the site**, or remove its requirements, sources and scoring sections.
 
 ## 4. Checked against public sources, 6 November 2026
 

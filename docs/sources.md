@@ -27,6 +27,21 @@ When NC posts its 2027 Web Design document, we will update the [Web Design page]
 
 Site check date: {{ site.checked | date: "%-d %B %Y" }}.
 
+## How to get the Technical Standards
+
+The Technical Standards come free with SkillsUSA membership. Students and advisors can both get them. {% include status.html s="confirmed" %} (checked 6 November 2026)
+
+1. Join SkillsUSA as a student or professional member at [skillsusa-register.org](https://www.skillsusa-register.org/Login.aspx).
+2. SkillsUSA emails you an access code.
+3. Log in to [Pathful](https://app.pathful.com/login) with that code.
+4. Open **Technical Standards** in the SkillsUSA member resources, and choose your contest.
+
+Help: SkillsUSA Customer Care, 844-875-4557, customercare@skillsusa.org. Hours: Monday, Wednesday and Friday, 8 a.m.–5 p.m. ET; Tuesday and Thursday, 8 a.m.–7 p.m. ET.
+
+Sources: [SkillsUSA Technical Standards page](https://www.skillsusa.org/competitions/skillsusa-championships/technical-standards/), [SkillsUSA NC competition guidelines](https://www.skillsusanc.org/competition-guidelines), [SkillsUSA on Pathful](https://skillsusa.pathful.com/).
+
+Do not share the standards publicly. Use them for your own preparation.
+
 ## Official sources
 
 **SkillsUSA (national)**

@@ -1,0 +1,53 @@
+# Key dates, 2026–27. Source: source/claude-2026-10-30/verified-baseline.md (checked 30 Oct 2026) and later checks.
+# date: first day (YYYY-MM-DD). end: last day, if more than one day. status: confirmed | unverified.
+- date: 2027-02-03
+  label: Registration deadline, South Central Regional Rally
+  status: confirmed
+  source: SkillsUSA NC regional rallies
+  url: https://www.skillsusanc.org/regional-rallies
+- date: 2027-02-19
+  label: South Central Regional Rally at FTCC, 2201 Hull Road, Fayetteville
+  note: Optional. It gives practice and lowers the state registration fee. NC has not said which contests this rally offers.
+  status: confirmed
+  source: SkillsUSA NC regional rallies
+  url: https://www.skillsusanc.org/regional-rallies
+- date: 2027-03-01
+  label: Membership deadline
+  note: A student who joins after this date cannot advance to nationals.
+  status: confirmed
+  source: SkillsUSA NC membership deadline
+  url: https://www.skillsusanc.org/skillsusa-membership-deadline
+- date: 2027-04-02
+  label: NC deadline for drops, substitutions, contest changes and payment (about this date)
+  note: This was the 2026 deadline. NC has not posted the 2027 date.
+  status: unverified
+  source: SkillsUSA NC state conference information (2026)
+  url: https://www.skillsusanc.org/state-conference-information
+- date: 2027-04-21
+  end: 2027-04-23
+  label: NC State Leadership and Skills Conference, Greensboro
+  note: First place in a national contest qualifies for nationals.
+  status: confirmed
+  source: SkillsUSA NC state conference
+  url: https://www.skillsusanc.org/copy-of-state-conference
+- date: 2027-05-18
+  label: National competitor numbers and Professional Development Test (PDT) log-ins sent by email
+  status: confirmed
+  source: SkillsUSA competition updates
+  url: https://www.skillsusa.org/competitions/skillsusa-championships/competition-updates/
+- date: 2027-06-03
+  label: National online submissions due, 5 p.m. ET (resume)
+  status: confirmed
+  source: SkillsUSA competition updates
+  url: https://www.skillsusa.org/competitions/skillsusa-championships/competition-updates/
+- date: 2027-06-17
+  label: National Professional Development Test (PDT) due online, 5 p.m. ET
+  status: confirmed
+  source: SkillsUSA competition updates
+  url: https://www.skillsusa.org/competitions/skillsusa-championships/competition-updates/
+- date: 2027-06-21
+  end: 2027-06-25
+  label: National Leadership and Skills Conference (NLSC), Atlanta
+  status: confirmed
+  source: SkillsUSA NLSC
+  url: https://www.skillsusa.org/events/national-leadership-skills-conference/

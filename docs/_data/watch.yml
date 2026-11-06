@@ -1,0 +1,22 @@
+# Official pages the team watches for new information.
+# When you check a page, update "checked" and "status". Keep "status" to one or two sentences.
+- name: NC 2027 Web Design state document
+  url: https://www.skillsusanc.org/competition-guidelines
+  page: SkillsUSA NC competition guidelines
+  checked: 2026-11-06
+  status: Not posted. NC lists "Web Design" with no state document and says to use the national Technical Standards until one is posted.
+- name: NC 2027 Computer Programming state document
+  url: https://www.skillsusanc.org/competition-guidelines
+  page: SkillsUSA NC competition guidelines
+  checked: 2026-11-06
+  status: Not posted. Same as Web Design.
+- name: NC 2027 Conference and Competition Packet
+  url: https://www.skillsusanc.org/competition-guidelines
+  page: SkillsUSA NC competition guidelines
+  checked: 2026-11-06
+  status: Not posted. Marked "coming this fall". It will give the state registration deadline, fees and procedures.
+- name: National competition updates
+  url: https://www.skillsusa.org/competitions/skillsusa-championships/competition-updates/
+  page: SkillsUSA competition updates
+  checked: 2026-11-06
+  status: No Web Design or Computer Programming update. Any online knowledge test will be announced here by 18 May 2027.

@@ -1,0 +1,5 @@
+{%- assign s = include.s | default: "unverified" -%}
+{%- if s == "confirmed" -%}<span class="status status-confirmed">Confirmed</span>
+{%- elsif s == "local" -%}<span class="status status-local">Local practice rule</span>
+{%- else -%}<span class="status status-unverified">Unverified</span>
+{%- endif -%}

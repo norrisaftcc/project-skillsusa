@@ -1,0 +1,19 @@
+{%- comment -%}Renders site.data.dates. Pass notes=true to show the notes and sources.{%- endcomment -%}
+<ul class="date-list">
+{%- for d in site.data.dates -%}
+  {%- assign end = d.end | default: d.date -%}
+  <li class="date-item" data-end="{{ end }}">
+    <span class="date-when">
+      {%- if d.end -%}{{ d.date | date: "%-d" }}–{{ d.end | date: "%-d %b %Y" }}{%- else -%}{{ d.date | date: "%-d %b %Y" }}{%- endif -%}
+      <span class="date-flag"></span>
+    </span>
+    <span class="date-what">
+      {{ d.label }} {% include status.html s=d.status %}
+      {%- if include.notes -%}
+        {%- if d.note %}<p>{{ d.note }}</p>{% endif -%}
+        <p>Source: <a href="{{ d.url }}">{{ d.source }}</a></p>
+      {%- endif -%}
+    </span>
+  </li>
+{%- endfor -%}
+</ul>

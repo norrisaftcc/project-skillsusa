@@ -1,0 +1,81 @@
+---
+title: Practice scorecard
+kicker: Practice
+lede: Score a practice build on our local 100-point rubric. Your scores stay in this browser only.
+description: Local 100-point practice rubric for FTCC SkillsUSA Web Design teams.
+---
+
+<div class="callout warn">
+  <p class="callout-title">This is not the official rubric</p>
+  <p>These weights are our own <span class="status status-local">Local practice rule</span>. The official rubric is member material; coaches get it through SkillsUSA. Use this card to compare one practice build with the next, not to predict a contest score.</p>
+</div>
+
+<div data-scorecard>
+  <table class="score-table">
+    <caption class="visually-hidden">Practice rubric</caption>
+    <thead>
+      <tr><th scope="col">Area</th><th scope="col">What earns points</th><th scope="col" class="num">Points</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row"><label for="s-func">Client requirements and working behavior</label></th>
+        <td>Every required fact is exact. Every required feature works, including filters and reset.</td>
+        <td class="num"><input id="s-func" type="number" min="0" max="25" step="1" inputmode="numeric" data-id="func"> / 25</td>
+      </tr>
+      <tr>
+        <th scope="row"><label for="s-a11y">Semantic HTML and keyboard access</label></th>
+        <td>Landmarks, heading order, labels, text alternatives. The whole task works by keyboard with visible focus.</td>
+        <td class="num"><input id="s-a11y" type="number" min="0" max="20" step="1" inputmode="numeric" data-id="a11y"> / 20</td>
+      </tr>
+      <tr>
+        <th scope="row"><label for="s-resp">Responsive layout and visual hierarchy</label></th>
+        <td>Readable at 320 px, 768 px and desktop. No sideways scroll. The main task is the easiest thing to see.</td>
+        <td class="num"><input id="s-resp" type="number" min="0" max="20" step="1" inputmode="numeric" data-id="resp"> / 20</td>
+      </tr>
+      <tr>
+        <th scope="row"><label for="s-plan">Planning and client reasoning</label></th>
+        <td>Discovery questions, a paper wireframe, and choices that trace back to the client's needs.</td>
+        <td class="num"><input id="s-plan" type="number" min="0" max="15" step="1" inputmode="numeric" data-id="plan"> / 15</td>
+      </tr>
+      <tr>
+        <th scope="row"><label for="s-test">Testing and repair</label></th>
+        <td>An evidence file with passed and failed tests, a repair, a retest and known limitations.</td>
+        <td class="num"><input id="s-test" type="number" min="0" max="10" step="1" inputmode="numeric" data-id="test"> / 10</td>
+      </tr>
+      <tr>
+        <th scope="row"><label for="s-comm">Explanation and teamwork</label></th>
+        <td>Both partners explain the site, a decision and a tradeoff. The handoff between them was clear.</td>
+        <td class="num"><input id="s-comm" type="number" min="0" max="10" step="1" inputmode="numeric" data-id="comm"> / 10</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="js-only">Total: <span class="score-total" data-score-total aria-live="polite"></span></p>
+
+  <p><label for="s-notes"><strong>Evidence notes</strong> (one reason for each score)</label><br>
+  <textarea id="s-notes" rows="5"></textarea></p>
+
+  <div class="button-row js-only">
+    <button type="button" data-score-export>Download as text</button>
+    <button type="button" class="secondary" data-score-reset>Clear scores</button>
+  </div>
+</div>
+
+<h2>How the areas map to the 2026 judging areas</h2>
+<p>WPG named three judging areas for the 2026 national contest <span class="status status-confirmed">Confirmed</span>. Our six areas fit inside them:</p>
+<table>
+  <thead><tr><th scope="col">2026 judging area</th><th scope="col">Our practice areas</th></tr></thead>
+  <tbody>
+    <tr><td>UX and UI layout and responsiveness</td><td>Client requirements; responsive layout; planning</td></tr>
+    <tr><td>Semantic and accessible code</td><td>Semantic HTML and keyboard access; testing and repair</td></tr>
+    <tr><td>Teamwork and agency professionalism</td><td>Explanation and teamwork</td></tr>
+  </tbody>
+</table>
+
+<h2>How to score</h2>
+<ul>
+  <li>Score what you can see: a working feature, a passed test, a clear explanation. Do not score taste.</li>
+  <li>Write one reason for each score in the evidence notes.</li>
+  <li>Before a mock contest, two coaches score the same sample build and settle large differences.</li>
+  <li>After scoring, pick the two weakest areas, practice them in a skill lab, and retest the same behavior.</li>
+</ul>

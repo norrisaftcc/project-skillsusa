@@ -17,7 +17,7 @@ There are four problems:
 
 1. The practice format is for one student. The contest is for a team of two.
 2. The written test practice (40 questions, 45 minutes) does not match the probable contest format (70 questions, 60 minutes).
-3. The Claude addendum of 30 October has two factual errors (section 2).
+3. The Claude addendum of 30 October has one factual error: the 2026 postsecondary contest hours (section 2). (Corrected 6 November. This line first said two errors. The resume penalty is not an error.)
 4. Most of the working files (labs, starters, answer keys, the practice hub) are in ZIP packs that are not in the Drive folder.
 
 ## 2. External claims checked
@@ -35,16 +35,16 @@ Checked on 6 November 2026 against these pages:
 | NC calls the contest "Web Design"; national calls it "Web Design and Development". (Training Track) | Confirmed | The NC guidelines page lists "Web Design". |
 | Team of two. (Training Track addendum) | Confirmed | Recap: "teams of two" for high school and college. |
 | No front-end frameworks (Bootstrap, Tailwind, React). No AI generation. (Training Track addendum, Runbook) | Confirmed | Recap: teams "were forbidden from using external front-end frameworks" and "completely banned from utilizing AI generation assistance". |
-| No templates. (Training Track addendum) | **UNVERIFIED** | The recap does not mention templates. Keep "no templates" as a local practice rule only. |
-| Coding happens in a server-based IDE that WPG supplies. (Training Track addendum) | Confirmed, wording differs | Recap: a "custom, cloud-based Integrated Development Environment (IDE)", "web-accessible". Use "cloud-based". |
+| No templates. (Training Track addendum) | Confirmed (corrected 6 Nov) | The recap does not mention templates. The public copy of the 2023–24 WDD standard does: "online coding environment (no templates ...)". Check the 2026–28 text. |
+| Coding happens in a server-based IDE that WPG supplies. (Training Track addendum) | Confirmed | Recap: a "custom, cloud-based Integrated Development Environment (IDE)", "web-accessible". The 2023–24 standard: "All coding will be done using a server-based environment supplied by Web Professionals Global." |
 | Contest flow: live client interview, one hour of paper wireframes, coding, scope change after lunch, team interviews during coding. (Training Track addendum, 12-Week Plan) | Confirmed | All five steps are in the recap. The recap calls the scope change a "twist". |
 | The 2026 **postsecondary** day ran 8 a.m. to 3 p.m. (Training Track addendum) | **WRONG** | 8 a.m. to 3 p.m. was the **secondary** (high school) day, 3 June. For the postsecondary day, 4 June, the recap gives only the end time, 3 p.m. |
 | Judging areas: UX/UI layout and responsiveness; semantic and accessible code; teamwork and agency professionalism. (Training Track addendum) | Confirmed | The recap names these three criteria. It gives no weights. |
 | Written test is the WPG CWDSA-apprentice exam: 70 questions, 60 minutes, HTML 25%, CSS 25%. (Training Track addendum) | Partly confirmed | The CWDSA page confirms 70 questions, 60 minutes, HTML 25%, CSS 25%. The recap says only "a rigorous one-hour online examination". No public source links the contest test to CWDSA. **UNVERIFIED** as a contest fact. |
 | Resume upload deadline 3 June 2027, 5 p.m. ET. (Training Track addendum) | Confirmed | Competition updates page. |
-| A missing resume upload costs 10 points. (Training Track addendum) | **WRONG** | The 10-point penalty is for a missing Safety Training Verification Letter. For resumes, the page says only that a missing upload "will still incur a penalty". It gives no point value. |
+| A missing resume upload costs 10 points. (Training Track addendum) | Confirmed for 2023–24 (corrected 6 Nov; this row first said WRONG) | The competition updates page gives no point value for resumes; its 10-point penalty is for a Safety Training Verification Letter. But the event standard sets its own penalty. The public copy of the [2023–24 WDD standard](https://resources.finalsite.net/images/v1700063899/gcitorg/xarycrundehj64ktd4ef/WebDesignandDevelopment2023-24.pdf) says: "Failure to submit a resume will result in a 10-point penalty." Check the 2026–28 text. |
 | Technical Standards are for members only. (several) | Confirmed | "may not be posted or shared in any publicly accessible location". This limits the public site (section 5). |
-| NC state conference 2027. | No dates published | The NC page names Greensboro 2027 and says the packet is "coming this fall". |
+| NC state conference 2027. | Confirmed (corrected 6 Nov; this row first said no dates were published) | The [NC state conference page](https://www.skillsusanc.org/copy-of-state-conference) lists 21–23 April 2027, Greensboro. The 2027 packet is still "coming this fall". |
 | The recovered guide at nc-skillsusa-web-guide.teacherbot.chatgpt.site. | Live, not authoritative | The page loads. It calls itself an "Independent preparation guide". It is a ChatGPT-hosted page and can disappear. Do not use it as a source. |
 
 ## 3. Conflicts inside the material

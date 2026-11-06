@@ -1,0 +1,33 @@
+<section id="hof" data-transition="fade" style="background:#0E1116;color:#B3BFCC;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-family:'JetBrains Mono', 'Courier New', monospace;font-size:24px;letter-spacing:2px;color:#79B8FF">WEEK 5 · HIGHER-ORDER FUNCTIONS</p>
+<h2 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:64px;font-weight:700;line-height:1.1;color:#E9EEF3">Array methods shape what the page shows</h2>
+</div>
+<div style="display:flex;gap:64px;align-items:start">
+<ul style="flex:1;font-size:30px;line-height:1.5;color:#B3BFCC">
+<li>filter keeps items; map changes each one</li>
+<li>reduce folds a list into one value, such as counts</li>
+<li>toSorted returns a new array; sort changes the original</li>
+<li>filter, map and toSorted return new arrays, so they chain; reduce does not</li>
+</ul>
+<div style="width:880px;display:flex;flex-direction:column;gap:20px;background:#0A0D12;border:1px solid #2B3644;border-radius:16px;padding:32px 36px;font-family:'JetBrains Mono', 'Courier New', monospace">
+<div style="display:flex;flex-direction:column">
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#B3BFCC"><span style="color:#F2A65A">const</span> food = services</p>
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#B3BFCC">&#160;&#160;.<span style="color:#79B8FF">filter</span>((s) =&gt; s.category === <span style="color:#9ED9A6">"food"</span>);</p>
+</div>
+<div style="display:flex;flex-direction:column">
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#B3BFCC"><span style="color:#F2A65A">const</span> names = services</p>
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#B3BFCC">&#160;&#160;.<span style="color:#79B8FF">map</span>((s) =&gt; s.name)</p>
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#B3BFCC">&#160;&#160;.<span style="color:#79B8FF">toSorted</span>();</p>
+</div>
+<div style="display:flex;flex-direction:column">
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#B3BFCC"><span style="color:#F2A65A">const</span> counts = services.<span style="color:#79B8FF">reduce</span>((acc, s) =&gt; {</p>
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#B3BFCC">&#160;&#160;acc[s.category] = (acc[s.category] ?? 0) + 1;</p>
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#B3BFCC">&#160;&#160;<span style="color:#F2A65A">return</span> acc;</p>
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#B3BFCC">}, {});</p>
+</div>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-family:'JetBrains Mono', 'Courier New', monospace;font-size:24px;color:#8593A3">Phase 1 spike · JavaScript · Eloquent JavaScript ch. 5</p>
+<aside>These three operations are the exit check: filter by category, sort by name, count per category. They are also the core of the Phase 2 filter build. Map each one to its Python form first: a list comprehension with if, sorted(), and a dict counter. toSorted is a 2023 addition; see the review questions.</aside>
+</section>

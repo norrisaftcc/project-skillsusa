@@ -16,6 +16,7 @@ The plan is to publish a GitHub Pages site from this repo when the source materi
 | Folder | Origin | Status |
 |---|---|---|
 | [`source/chatgpt-2026-10-30/`](source/chatgpt-2026-10-30/) | ChatGPT training track, baseline, labs, three mocks, coach material | Imported and reviewed. See [REVIEW.md](source/chatgpt-2026-10-30/REVIEW.md). |
+| [`source/claude-2026-10-30/`](source/claude-2026-10-30/) | Claude verified baseline, research report, 23-week Web Design curriculum and workbook, Phase 1 overview decks, WPG email draft | Imported and reviewed. See [REVIEW.md](source/claude-2026-10-30/REVIEW.md). |
 
 ## Rules for content
 

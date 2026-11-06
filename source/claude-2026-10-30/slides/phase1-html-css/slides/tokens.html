@@ -1,0 +1,28 @@
+<section id="tokens" data-transition="fade" style="background:#0E1116;color:#B3BFCC;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-family:'JetBrains Mono', 'Courier New', monospace;font-size:24px;letter-spacing:2px;color:#F2A65A">WEEK 5 · CUSTOM PROPERTIES</p>
+<h2 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:64px;font-weight:700;line-height:1.1;color:#E9EEF3">Design tokens turn a client’s scope change into a small edit</h2>
+</div>
+<div style="display:flex;gap:64px;align-items:start">
+<ul style="flex:1;font-size:30px;line-height:1.5;color:#B3BFCC">
+<li>Name colors, spacing and type sizes once, in :root</li>
+<li>Rules use var(--name), never raw values</li>
+<li>Practice: restyle a whole page by editing :root only</li>
+<li>This is the habit that absorbs the mid-day scope change</li>
+</ul>
+<div style="width:880px;display:flex;flex-direction:column;background:#0A0D12;border:1px solid #2B3644;border-radius:16px;padding:32px 36px;font-family:'JetBrains Mono', 'Courier New', monospace">
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#79B8FF">:root {</p>
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#F2A65A">&#160;&#160;--color-ink<span style="color:#B3BFCC">: </span><span style="color:#9ED9A6">#1d2433</span><span style="color:#B3BFCC">;</span></p>
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#F2A65A">&#160;&#160;--color-accent<span style="color:#B3BFCC">: </span><span style="color:#9ED9A6">#b4451f</span><span style="color:#B3BFCC">;</span></p>
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#F2A65A">&#160;&#160;--space-m<span style="color:#B3BFCC">: </span><span style="color:#9ED9A6">1rem</span><span style="color:#B3BFCC">;</span></p>
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#F2A65A">&#160;&#160;--step-1<span style="color:#B3BFCC">: </span><span style="color:#9ED9A6">1.25rem</span><span style="color:#B3BFCC">;</span></p>
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#79B8FF">}</p>
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#79B8FF">.button {</p>
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#F2A65A">&#160;&#160;background<span style="color:#B3BFCC">: var(</span><span style="color:#9ED9A6">--color-accent</span><span style="color:#B3BFCC">);</span></p>
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#F2A65A">&#160;&#160;padding<span style="color:#B3BFCC">: var(</span><span style="color:#9ED9A6">--space-m</span><span style="color:#B3BFCC">);</span></p>
+<p style="font-size:28px;line-height:1.5;white-space:nowrap;color:#79B8FF">}</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-family:'JetBrains Mono', 'Courier New', monospace;font-size:24px;color:#8593A3">Phase 1 spike · HTML and CSS</p>
+<aside>The week 5 build: give students a finished page and a new brand palette. They may change only the :root block. Any rule with a raw color value is a defect to log. CSS variables are also a named exam topic.</aside>
+</section>

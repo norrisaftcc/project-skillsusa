@@ -1,0 +1,79 @@
+name: Watch NC competition page
+
+# Checks the SkillsUSA NC competition guidelines page once a day for changes to
+# the Web Design, Computer Programming, 2027 packet and 2027 spreadsheet lines.
+# On a change it opens one issue labelled "nc-watch", or updates the open one.
+# It never pushes. See CLAUDE.md, "Updating the site".
+
+on:
+  schedule:
+    # 11:23 UTC = 6:23 a.m. EST / 7:23 a.m. EDT.
+    - cron: "23 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: nc-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compare the page with the baseline
+        id: check
+        run: |
+          set +e
+          python3 .github/scripts/nc_watch.py check .github/nc-watch/baseline.json > report.md
+          code=$?
+          set -e
+          cat report.md
+          if [ "$code" -eq 3 ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          elif [ "$code" -ne 0 ]; then
+            echo "::error::The watch script failed (exit $code). The page may be down or its layout may have changed."
+            exit "$code"
+          fi
+
+      - name: Open or update the nc-watch issue
+        if: steps.check.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          {
+            echo "The [SkillsUSA NC competition guidelines page](https://www.skillsusanc.org/competition-guidelines) changed in a line we watch."
+            echo
+            cat report.md
+            echo
+            echo "## What to do"
+            echo
+            echo "1. Open the page and read the new item. Download any new document for Web Design or Computer Programming."
+            echo "2. Update \`docs/_data/watch.yml\` (\`checked\` and \`status\`) and every rule on the site that the new item changes. Give the NC document as the source."
+            echo "3. In the same pull request, run \`python3 .github/scripts/nc_watch.py update .github/nc-watch/baseline.json\` and commit the new baseline."
+            echo "4. Close this issue when the pull request merges."
+            echo
+            echo "_Opened by the [Watch NC competition page workflow](${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID})._"
+          } > body.md
+
+          gh label create nc-watch --color FBCA04 --description "Change on the SkillsUSA NC competition page" --force
+
+          existing=$(gh issue list --label nc-watch --state open --json number --jq '.[0].number // empty')
+          if [ -z "$existing" ]; then
+            gh issue create --title "NC competition page changed: $(date -u +%Y-%m-%d)" --label nc-watch --body-file body.md
+          else
+            old=$(gh issue view "$existing" --json body --jq .body)
+            # Compare without the last line, which holds the run link.
+            if [ "$(printf '%s' "$old" | sed '$d')" != "$(sed '$d' body.md)" ]; then
+              gh issue edit "$existing" --body-file body.md
+              gh issue comment "$existing" --body "The watched lines changed again on $(date -u +%Y-%m-%d). The issue text above is updated."
+            else
+              echo "Issue #$existing already describes this change."
+            fi
+          fi

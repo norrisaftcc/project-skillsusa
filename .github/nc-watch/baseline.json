@@ -1,0 +1,27 @@
+{
+  "url": "https://www.skillsusanc.org/competition-guidelines",
+  "items": {
+    "Web Design": {
+      "found": true,
+      "text": "Web Design",
+      "links": []
+    },
+    "Computer Programming": {
+      "found": true,
+      "text": "Computer Programming",
+      "links": []
+    },
+    "2027 Conference and Competition Packet": {
+      "found": true,
+      "text": "2027 Conference & Competition Packet coming this fall",
+      "links": []
+    },
+    "2027 Contest Spreadsheet": {
+      "found": true,
+      "text": "2027 Contest Spreadsheet 10-8-26",
+      "links": [
+        "https://www.skillsusanc.org/_files/ugd/6b19e9_efad3706b29c4f399bbf880372bda92e.xlsx?dn=Contest%20Spreadsheet%2027.xlsx"
+      ]
+    }
+  }
+}

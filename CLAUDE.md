@@ -21,6 +21,8 @@ The site is at https://norrisaftcc.github.io/project-skillsusa/. GitHub Pages bu
 - **A rule changed status.** Edit the page. Use the status include: `{% include status.html s="confirmed" %}`, `s="unverified"` or `s="local"`. Give the source URL and the check date. A fact from an older standard or season is Unverified for the current season.
 - **The whole site was rechecked.** Change `checked` in `docs/_config.yml`. The footer shows it.
 - **The NC 2027 Web Design or Computer Programming document is posted.** Update the matching entry in `watch.yml`. Then update every rule it changes on the contest page, with the NC document as the source.
+- **An `nc-watch` issue opens.** The workflow `.github/workflows/nc-watch.yml` checks the [NC competition guidelines page](https://www.skillsusanc.org/competition-guidelines) every day at 11:23 UTC. It watches four lines: Web Design, Computer Programming, the 2027 Conference and Competition Packet, and the 2027 Contest Spreadsheet. When one changes, it opens an issue labelled `nc-watch` (or updates the open one). Do the update above. In the same pull request, run `python3 .github/scripts/nc_watch.py update .github/nc-watch/baseline.json` and commit the new baseline. Close the issue when the pull request merges. To watch another line, add it to `WATCHED` in `.github/scripts/nc_watch.py` and update the baseline. If the workflow fails, the page is down or its layout changed; run `python3 .github/scripts/nc_watch.py show` to see what the script finds.
+- **GitHub disables scheduled workflows** after 60 days with no commits to the repo. If the watch stops, re-enable it in the Actions tab.
 
 **Rules for site content**
 
